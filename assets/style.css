@@ -375,7 +375,7 @@ footer{
     flex-direction: column;
     margin: 0px;
 }
-main .submit-btn, a{
+main .submit-btn, main a{
     padding: 15px 30px;
     border-radius: 20px;
     font-size: 1rem;
@@ -394,10 +394,10 @@ main a{
 .submit-btn:disabled{
     opacity: 0.2;
 }
-main .submit-btn:hover, a{
+main .submit-btn:hover, main a{
     background-image: radial-gradient(#8d35ff, #4c00ff);
 }
-main .submit-btn:active, a{
+main .submit-btn:active, main a{
     transform: scale(0.9);
 }
 
